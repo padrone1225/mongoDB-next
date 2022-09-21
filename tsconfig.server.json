@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": ".next/production-server",
+    "declaration": true,
+    "isolatedModules": false,
+    "noEmit": false,
+    "allowJs": false
+  },
+  "exclude": ["node_modules"]
+}
